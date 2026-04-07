@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Allure report results
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
