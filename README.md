@@ -9,6 +9,7 @@
 ![Pytest](https://img.shields.io/badge/Pytest-9.0.2-orange?style=flat-square&logo=pytest)
 ![Allure](https://img.shields.io/badge/Allure-2.15.3-yellow?style=flat-square)
 ![Tests](https://img.shields.io/badge/Tests-21%20Passed-brightgreen?style=flat-square)
+![CI](https://github.com/swarup-padhy/saucedemo-automation/actions/workflows/test.yml/badge.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
