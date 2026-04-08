@@ -1,4 +1,4 @@
-# 🛒 SauceDemo — Selenium Automation Framework
+# SauceDemo — Selenium Automation Framework
 
 > A production-grade UI test automation framework built with Selenium WebDriver, pytest, and Allure Reports. Covers the complete e-commerce purchase flow using the Page Object Model (POM) architecture.
 
@@ -27,7 +27,7 @@
 
 ---
 
-## ✅ Test Coverage
+## Test Coverage
 
 | Module | Test Cases | Markers |
 | :--- | :---: | :--- |
@@ -40,7 +40,7 @@
 
 ---
 
-## 🏗️ Framework Architecture
+## Framework Architecture
 
 ```
 saucedemo-automation/
@@ -70,7 +70,7 @@ saucedemo-automation/
 
 ---
 
-## 🔗 How the Framework Connects
+## How the Framework Connects
 
 ```
 conftest.py          → Creates browser, manages setup/teardown
@@ -87,7 +87,7 @@ utils/test_data.py   → Supplies test credentials and form data
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 **1. Clone the repository**
 ```bash
@@ -126,7 +126,7 @@ allure serve reports
 
 ---
 
-## 📊 Test Markers
+## Test Markers
 
 | Marker | Purpose | Count |
 | :--- | :--- | :---: |
@@ -141,7 +141,7 @@ python -m pytest tests/ -v         # 21 tests — ~98 seconds
 
 ---
 
-## 🧰 Key Design Decisions
+## Key Design Decisions
 
 **Page Object Model**
 Every page has its own class. Locators and actions live in the page file. Tests only call methods and assert — they never contain locators.
@@ -159,7 +159,7 @@ Repeated setup steps extracted into fixtures. No test contains more code than it
 
 ---
 
-## 🌐 Test Users
+## Test Users
 
 SauceDemo provides built-in test users — all use the same password `secret_sauce`:
 
